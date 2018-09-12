@@ -1,0 +1,55 @@
+settings:
+  silktouch: true
+  worldsWhitelist: true
+  worlds:
+  - world
+messages:
+  noPlacePerm: '&cYou are not allowed to place this.'
+  noBreakPerm: '&cYou are not allowed to break this.'
+  inventoryFull: '&eYour inventory is full! Some items were dropped to the ground.'
+  regionError: '&cYou are too close to a Zmod or WorldGuard region!'
+blocks:
+  lucky:
+    block: DIRT
+    effects:
+      '1':
+        chance: 10
+        type: items
+        items:
+        - 310:0
+        - 311:0
+      '2':
+        chance: 50
+        type: lightning
+      '3':
+        chance: 20
+        type: entity
+        entity: creeper
+        amount: 10
+      '4':
+        chance: 20
+        type: anvil
+  unlucky:
+    block: GLASS
+    effects:
+      '1':
+        chance: 30
+        type: lightning
+      '2':
+        chance: 10
+        type: entity
+        entity: skeleton
+        amount: 20
+      '3':
+        chance: 20
+        type: entity
+        entity: creeper
+        amount: 15
+      '4':
+        chance: 30
+        type: trap
+        trap: anvil
+      '5':
+        chance: 10
+        type: trap
+        trap: water

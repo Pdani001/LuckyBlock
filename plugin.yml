@@ -1,0 +1,6 @@
+name: LuckyBlock
+main: tk.Pdani.LuckyBlock.Main
+version: 1.0.1
+author: Pdani001
+description: LuckyBlock plugin
+softdepend: [iZone, WorldGuard]
